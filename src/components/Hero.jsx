@@ -35,13 +35,19 @@ export function Hero() {
       <BackgroundImage className="-bottom-14 -top-36" />
     
       <Container className="relative">
-  <div class="flex">
-        <div class="main">
-          <div class="border-2 border-red-500 rounded ">
-          <div class="  px-4 sm:px-6  lg:px-8">
+          <main class=" pb-8">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-full lg:px-8">
+     
+      <div class="grid grid-cols-1 gap-4 items-start lg:grid-cols-3 lg:gap-8">
+       
+        <div class="grid grid-cols-1 gap-4 lg:col-span-2">
+          <section aria-labelledby="section-1-title">
+            <div class="rounded-lg bg-white overflow-hidden shadow">
+              <div class="p-6">
+                <div class="  px-4 sm:px-6  lg:px-8">
             <div class="flex flex-col items-center sm:flex-row sm:flex ">
               <div class="py-[8px]">
-                    <video controls poster="/images/w3html5.gif" class="lg:min-w-[600px]">
+                    <video controls poster="/images/w3html5.gif" class="min-h-[180px]">
                       <source src="movie.mp4" type="video/mp4"/>
                       <source src="movie.ogg" type="video/ogg"/>
                       Your browser does not support the video tag.
@@ -64,131 +70,340 @@ export function Hero() {
             
             </div>
           </div>
+              </div>
+            </div>
+          </section>
+          <section aria-labelledby="section-1-title">
+           
+            <div class="">
+              <div class=" grid grid-cols-1 2xl:grid-cols-3 lg:gap-8 gap-10">
+                  <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+       
+        </div>
 
-          <div>
-        
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+          <div class="tab-view-editor">
+            <div id="editor_64" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
           </div>
         </div>
 
-        <div class="mt-12 place-content-center grid grid-cols-auto  sm:grid-cols-2 max-w-[500px] lg:grid-cols-3 gap-2 lg:max-w-[1000px]"  >
-        <div class="bg-white max-w-[300px] max-h-[300px]  border-orange-500 border-[2px] rounded">
-          <p class="pl-[20px] py-[16px]">Student Name</p>
-        <div class="pl-[10px]">
-          <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
-              Tab 1
-            </button>
-            <button type="button" class="ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-100
-             focus:outline-none  hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white  dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600" id="tabs-with-underline-item-3" data-hs-tab="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
-              New Tab
-            </button>
-          </nav>
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+        
         </div>
 
-        <div class="mt-3 pl-[10px]">
-            <textarea name="" id="" cols="25" rows="5" class="bg-white pl-[10px]  max-w-[300px] max-h-[300px] resize-none border-green-500 rounded border-2"></textarea>
-        </div>
-        </div>
-
-          <div class="bg-white max-w-[300px] max-h-[300px]  border-orange-500 border-[2px] rounded">
-          <p class="pl-[20px] py-[16px]">Student Name</p>
-        <div class="pl-[10px]">
-          <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
-              Tab 1
-            </button>
-            <button type="button" class="ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-100
-             focus:outline-none  hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white  dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600" id="tabs-with-underline-item-3" data-hs-tab="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
-              New Tab
-            </button>
-          </nav>
-        </div>
-
-        <div class="mt-3 pl-[10px]">
-            <textarea name="" id="" cols="25" rows="5" class="bg-white pl-[10px]  max-w-[300px] max-h-[300px] resize-none border-green-500 rounded border-2"></textarea>
-        </div>
-        </div>
-          <div class="bg-white max-w-[300px] max-h-[300px]  border-orange-500 border-[2px] rounded">
-          <p class="pl-[20px] py-[16px]">Student Name</p>
-        <div class="pl-[10px]">
-          <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
-              Tab 1
-            </button>
-            <button type="button" class="ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-100
-             focus:outline-none  hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white  dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600" id="tabs-with-underline-item-3" data-hs-tab="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
-              New Tab
-            </button>
-          </nav>
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+          <div class="tab-view-editor">
+            <div id="editor_64" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
         </div>
 
-        <div class="mt-3 pl-[10px]">
-            <textarea name="" id="" cols="25" rows="5" class="bg-white pl-[10px]  max-w-[300px] max-h-[300px] resize-none border-green-500 rounded border-2"></textarea>
-        </div>
-        </div>
-          <div class="bg-white max-w-[300px] max-h-[300px]  border-orange-500 border-[2px] rounded">
-          <p class="pl-[20px] py-[16px]">Student Name</p>
-        <div class="pl-[10px]">
-          <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
-              Tab 1
-            </button>
-            <button type="button" class="ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-100
-             focus:outline-none  hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white  dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600" id="tabs-with-underline-item-3" data-hs-tab="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
-              New Tab
-            </button>
-          </nav>
-        </div>
-
-        <div class="mt-3 pl-[10px]">
-            <textarea name="" id="" cols="25" rows="5" class="bg-white pl-[10px]  max-w-[300px] max-h-[300px] resize-none border-green-500 rounded border-2"></textarea>
-        </div>
-        </div>
-          <div class="bg-white max-w-[300px] max-h-[300px]  border-orange-500 border-[2px] rounded">
-          <p class="pl-[20px] py-[16px]">Student Name</p>
-        <div class="pl-[10px]">
-          <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
-              Tab 1
-            </button>
-            <button type="button" class="ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-100
-             focus:outline-none  hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white  dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600" id="tabs-with-underline-item-3" data-hs-tab="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
-              New Tab
-            </button>
-          </nav>
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+        
         </div>
 
-        <div class="mt-3 pl-[10px]">
-            <textarea name="" id="" cols="25" rows="5" class="bg-white pl-[10px]  max-w-[300px] max-h-[300px] resize-none border-green-500 rounded border-2"></textarea>
-        </div>
-        </div>
-          <div class="bg-white max-w-[300px] max-h-[300px]  border-orange-500 border-[2px] rounded">
-          <p class="pl-[20px] py-[16px]">Student Name</p>
-        <div class="pl-[10px]">
-          <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
-              Tab 1
-            </button>
-            <button type="button" class="ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-100
-             focus:outline-none  hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white  dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600" id="tabs-with-underline-item-3" data-hs-tab="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
-              New Tab
-            </button>
-          </nav>
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+          <div class="tab-view-editor">
+            <div id="editor_64" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
         </div>
 
-        <div class="mt-3 pl-[10px]">
-            <textarea name="" id="" cols="25" rows="5" class="bg-white pl-[10px]  max-w-[300px] max-h-[300px] resize-none border-green-500 rounded border-2"></textarea>
-        </div>
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
         </div>
 
-        </div>
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+          <div class="tab-view-editor">
+            <div id="editor_64" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
         </div>
 
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+         
+        </div>
 
- {showOverlay ? (
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+          <div class="tab-view-editor">
+            <div id="editor_64" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+       
+        </div>
+
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+          <div class="tab-view-editor">
+            <div id="editor_64" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+      
+      </div>
+
+              </div>
+             
+            </div>
+          </section>
+        </div>
+
+        <div class="grid grid-cols-1 gap-4">
+          <section aria-labelledby="section-2-title">
+            <h2 class="sr-only" id="section-2-title">Section title</h2>
+            
+              <div class="">
+               {showOverlay ? (
         <div className="">
-             <div class="bg-white  fixed left-[25%] w-[50%] h-full z-50  border-orange-500 border-[2px] rounded">
-          <div class="flex items-center justify-between">
+             <div class="bg-white  fixed left-[25%] w-[50%] h-full z-50 rounded-lg overflow-hidden shadow -5 ">
+            <div class="flex items-center justify-between">
                 <p class="pl-[20px] py-[16px] uppercase">Student Name</p>
                  <div class=" flex lg:mt-0 lg:flex-shrink-0">
       <div class="inline-flex rounded-md shadow">
@@ -228,26 +443,22 @@ export function Hero() {
   </div>
 </div>
         <div class="pl-[10px]">
-          <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
-              Tab 1
-            </button>
-            <button type="button" class="ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-100
-             focus:outline-none  hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white  dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600" id="tabs-with-underline-item-3" data-hs-tab="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
-              New Tab
-            </button>
-          </nav>
+         <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
         </div>
 
         <div class="mt-3 px-[10px]">
-            <textarea name="" id="" cols="25" rows="30"
-             class="bg-white pl-[10px] resize-none w-full h-full   border-green-500 border-[2px] rounded"></textarea>
+           <div id="tab-view-content" class="h-[75vh]"><div class="tab-view-editor"><div id="editor_63" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div><div class="tab-view-editor"><div id="editor_64" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div></div>
         </div>
         </div>
           
         </div>
       ) : (
-          <div class="bg-white w-full h-[90vh] ml-5   border-orange-500 border-[2px] rounded">
+          <div class="rounded-lg bg-white overflow-hidden shadow w-full h-[90vh] ml-5   ">
           <div class="flex items-center justify-between">
                 <p class="pl-[20px] py-[16px] uppercase">Student Name</p>
                  <div class=" flex lg:mt-0 lg:flex-shrink-0">
@@ -288,27 +499,27 @@ export function Hero() {
   </div>
 </div>
         <div class="pl-[10px]">
-          <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
-              Tab 1
-            </button>
-            <button type="button" class="ml-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-100
-             focus:outline-none  hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white  dark:bg-indigo-600 dark:hover:bg-indigo-600 dark:focus:ring-indigo-600" id="tabs-with-underline-item-3" data-hs-tab="#tabs-with-underline-3" aria-controls="tabs-with-underline-3" role="tab">
-              New Tab
-            </button>
-          </nav>
+         <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
         </div>
 
         <div class="mt-3 px-[10px]">
-            <textarea name="" id="" cols="25" rows="30"
-             class="bg-white pl-[10px] resize-none w-full h-full   border-green-500 border-[2px] rounded"></textarea>
+           <div id="tab-view-content" class="h-[75vh]"><div class="tab-view-editor"><div id="editor_63" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div><div class="tab-view-editor"><div id="editor_64" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div></div>
         </div>
         </div>
       )}
-
-
- 
+              </div>
+          
+          </section>
+        </div>
       </div>
+    </div>
+  </main>
+ 
       </Container>
     </div>
   )

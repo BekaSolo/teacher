@@ -2,7 +2,7 @@ import { DM_Sans, Inter } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
-
+import '@/styles/style.css'
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
