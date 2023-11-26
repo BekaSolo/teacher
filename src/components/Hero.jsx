@@ -38,7 +38,7 @@ export function Hero() {
           <main class=" pb-8">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-full lg:px-8">
      
-      <div class="grid grid-cols-1 gap-4 items-start lg:grid-cols-3 lg:gap-8">
+      <div class="grid  gap-4 items-start lg:grid-cols-3 lg:gap-8">
        
         <div class="grid grid-cols-1 gap-4 lg:col-span-2">
           <section aria-labelledby="section-1-title">
@@ -109,229 +109,7 @@ export function Hero() {
               ></div>
             </div>
           </div>
-          <div class="tab-view-editor">
-            <div id="editor_64" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
-        </div>
-
-      
-      </div>
-      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
-      
-      >
-        <div class="resizable-handle"></div>
-        <div>
-          <b id="tab-view-student-name">STUDENT NAME</b>
-          <div class="tabbed round">
-            <ul id="tab-view-nav-list">
-              <li id="tab-view-new-tab">New Tab</li>
-              <li id="tab-0" class="active">Tab 1</li>
-            </ul>
-          </div>
-        
-        </div>
-
-        <div id="tab-view-content" style={{height: 312+'px'}}>
-          <div class="tab-view-editor">
-            <div id="editor_63" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
-          <div class="tab-view-editor">
-            <div id="editor_64" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
-        </div>
-
-      
-      </div>
-      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
-      
-      >
-        <div class="resizable-handle"></div>
-        <div>
-          <b id="tab-view-student-name">STUDENT NAME</b>
-          <div class="tabbed round">
-            <ul id="tab-view-nav-list">
-              <li id="tab-view-new-tab">New Tab</li>
-              <li id="tab-0" class="active">Tab 1</li>
-            </ul>
-          </div>
-        
-        </div>
-
-        <div id="tab-view-content" style={{height: 312+'px'}}>
-          <div class="tab-view-editor">
-            <div id="editor_63" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
-          <div class="tab-view-editor">
-            <div id="editor_64" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
-        </div>
-
-      
-      </div>
-      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
-      
-      >
-        <div class="resizable-handle"></div>
-        <div>
-          <b id="tab-view-student-name">STUDENT NAME</b>
-          <div class="tabbed round">
-            <ul id="tab-view-nav-list">
-              <li id="tab-view-new-tab">New Tab</li>
-              <li id="tab-0" class="active">Tab 1</li>
-            </ul>
-          </div>
-        </div>
-
-        <div id="tab-view-content" style={{height: 312+'px'}}>
-          <div class="tab-view-editor">
-            <div id="editor_63" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
-          <div class="tab-view-editor">
-            <div id="editor_64" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
-        </div>
-
-      
-      </div>
-      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
-      
-      >
-        <div class="resizable-handle"></div>
-        <div>
-          <b id="tab-view-student-name">STUDENT NAME</b>
-          <div class="tabbed round">
-            <ul id="tab-view-nav-list">
-              <li id="tab-view-new-tab">New Tab</li>
-              <li id="tab-0" class="active">Tab 1</li>
-            </ul>
-          </div>
          
-        </div>
-
-        <div id="tab-view-content" style={{height: 312+'px'}}>
-          <div class="tab-view-editor">
-            <div id="editor_63" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
-          <div class="tab-view-editor">
-            <div id="editor_64" class="ql-container ql-snow">
-              <div
-                class="ql-editor ql-blank"
-                data-gramm="false"
-                contenteditable="true"
-              >
-                <p><br /></p>
-              </div>
-              <div
-                class="ql-clipboard"
-                contenteditable="true"
-                tabindex="-1"
-              ></div>
-            </div>
-          </div>
         </div>
 
       
@@ -368,8 +146,29 @@ export function Hero() {
               ></div>
             </div>
           </div>
+         
+        </div>
+
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+       
+        </div>
+
+        <div id="tab-view-content" style={{height: 312+'px'}}>
           <div class="tab-view-editor">
-            <div id="editor_64" class="ql-container ql-snow">
+            <div id="editor_63" class="ql-container ql-snow">
               <div
                 class="ql-editor ql-blank"
                 data-gramm="false"
@@ -384,6 +183,118 @@ export function Hero() {
               ></div>
             </div>
           </div>
+         
+        </div>
+
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+       
+        </div>
+
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+         
+        </div>
+
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+       
+        </div>
+
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+         
+        </div>
+
+      
+      </div>
+      <div class="tab-view rounded-lg bg-white overflow-hidden shadow"
+      
+      >
+        <div class="resizable-handle"></div>
+        <div>
+          <b id="tab-view-student-name">STUDENT NAME</b>
+          <div class="tabbed round">
+            <ul id="tab-view-nav-list">
+              <li id="tab-view-new-tab">New Tab</li>
+              <li id="tab-0" class="active">Tab 1</li>
+            </ul>
+          </div>
+       
+        </div>
+
+        <div id="tab-view-content" style={{height: 312+'px'}}>
+          <div class="tab-view-editor">
+            <div id="editor_63" class="ql-container ql-snow">
+              <div
+                class="ql-editor ql-blank"
+                data-gramm="false"
+                contenteditable="true"
+              >
+                <p><br /></p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              ></div>
+            </div>
+          </div>
+         
         </div>
 
       
@@ -452,7 +363,7 @@ export function Hero() {
         </div>
 
         <div class="mt-3 px-[10px]">
-           <div id="tab-view-content" class="h-[75vh]"><div class="tab-view-editor"><div id="editor_63" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div><div class="tab-view-editor"><div id="editor_64" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div></div>
+            <div id="tab-view-content" class="h-[75vh]"><div class="tab-view-editor"><div id="editor_63" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div></div>
         </div>
         </div>
           
@@ -507,8 +418,8 @@ export function Hero() {
           </div>
         </div>
 
-        <div class="mt-3 px-[10px]">
-           <div id="tab-view-content" class="h-[75vh]"><div class="tab-view-editor"><div id="editor_63" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div><div class="tab-view-editor"><div id="editor_64" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div></div>
+        <div class="px-[10px]">
+           <div id="tab-view-content" class="h-[75vh]"><div class="tab-view-editor"><div id="editor_63" class="ql-container ql-snow"><div class="ql-editor ql-blank" data-gramm="false" contenteditable="true"><p><br/></p></div><div class="ql-clipboard" contenteditable="true" tabindex="-1"></div></div></div></div>
         </div>
         </div>
       )}
